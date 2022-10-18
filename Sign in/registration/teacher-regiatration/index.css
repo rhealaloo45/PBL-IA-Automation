@@ -1,36 +1,43 @@
 *{
     margin: 0;
     padding: 0;
-
+    /*text-align: center;*/
 }
 
 body{
-    background-color: rgb(160, 28, 28);
+    background: url(teach.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container{
-   
     color: black;
     position: absolute;
-    top: 30%; left: 38%;
-    background-color: white ;
-    padding: 30px;
-    border-radius: 10px;
-
+    top:10%;
+    left: 55%;
 }
 
 .container h1{
-     /*display: inline-block; */
     font-size: 40px;
     border-bottom: 5px solid lightblue;
-    margin-bottom: 43px;
+    margin-bottom: 10px;
     padding: 13px;
 }
 
-
+/*.box{
+    width: 100%;
+    
+}*/
 .box{
     width: 100%;
-    border-bottom: 2px solid lightblue;
+}
+
+.box input{
+    width: 50%;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 01px solid ;
+    outline: none;
+    color: gray;
 }
 
 .box i{
@@ -38,17 +45,6 @@ body{
     padding: 0 12px;
     text-align: center;
 
-}
-
-.box input{
-    width: 75%;
-    margin: 12px 0;
-    padding: 5px 10px;;
-    font-size: 20px;
-
-    border:none;
-    outline: none;
-    color: gray;
 }
 
 .btn{
@@ -60,15 +56,13 @@ body{
     border-radius: 10px;
     /* border:  2px solid lightblue; */
     font-size: 18px;
-    color: black;
 }
 
 .btn:hover{
     color: black;
     background-color: lightblue;
-    
 }
 
-.btn1{
-    text-align: right;
-}
+
+
+

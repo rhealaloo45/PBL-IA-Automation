@@ -81,8 +81,9 @@ color: #000;
 }
 .aboutspark h3{
   margin-left: 50px;
-  font-size:24px;
+  font-size:35px;
   font-weight:lighter;
+  font-style: italic;
   font-family:Times New Roman;
   text-align: center;
   color: maroon;
@@ -112,12 +113,3 @@ margin-left: 60px;
   content: "";
   clear: both;
   display: table;}
-
-  /* carousel */
-  .card{
-    /* height: 550px; */
-  }
-
-  .card-img{
-    align-items: center;
-  }
