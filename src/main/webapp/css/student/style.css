@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: Arial;
+
+}
+header{
+ background-image: url(https://data.whicdn.com/images/355669291/original.jpg?t=1621542225);
+ height: 90px;
+ background-size: contain;
+ background-position:center;
+ border:#000;
+ border-bottom-width: 5px;
+}
+ul{
+  
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color: #fff;
+color: #000;
+}
+ul li.active a {
+  background-color: #fff;
+color: #000;
+}
+.logo img{
+  float: left;
+  width: 250px;
+  height: 90px;
+  margin-left: 0;
+  border: #000;
+  border-color: #000;
+   
+}
+.main{
+  max-width: 1500px;
+
+
+}
+
+  .title {
+    
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+   margin-top: 25px;
+    left: 2vh;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.title h1{
+
+  color:#fff;
+  font-size:30px;
+
+}
+.aboutspark h2{
+  font-family:Garamond;
+  font-weight: 120;
+  color: black;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 45px;
+  font-size: 45px;
+}
+.aboutspark h3{
+  margin-left: 50px;
+  font-size:35px;
+  font-weight:lighter;
+  font-style: italic;
+  font-family:Times New Roman;
+  text-align: center;
+  color: maroon;
+  
+}
+.quote h4{
+font-family: garamond;
+font-style: italic;
+font-size: 30px;
+text-align: center;
+color: rgb(149, 136, 233);
+margin-top: 15px;
+margin-left: 60px;
+}
+
+
+.column {
+  float: left;
+  width: 24%;
+  height: 5px;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+ 
+  content: "";
+  clear: both;
+  display: table;}

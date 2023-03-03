@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*text-align: center;*/
+}
+
+body{
+    background: url(stud.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    color: black;
+    position: absolute;
+    top:10%;
+    left: 55%;
+}
+
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid lightblue;
+    margin-bottom: 10px;
+    padding: 13px;
+}
+
+/*.box{
+    width: 100%;
+    
+}*/
+.box{
+    width: 100%;
+}
+
+.box input{
+    width: 50%;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 01px solid ;
+    outline: none;
+    color: gray;
+}
+
+.box i{
+    width:25px;
+    padding: 0 12px;
+    text-align: center;
+
+}
+
+.btn{
+    cursor: pointer;
+    outline:none;
+    width: 25%;
+    margin: 12 px 0;
+    padding: 6px;
+    border-radius: 10px;
+    /* border:  2px solid lightblue; */
+    font-size: 18px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: lightblue;
+}
+
+
+
+
